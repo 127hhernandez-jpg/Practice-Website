@@ -1,0 +1,56 @@
+body {
+    background-color: #6f0de8;
+    color: #999900;
+    padding-left: 20px;
+    padding-bottom: 25px;
+}
+a[href*="frhsd.com"] {
+    color : #6f6909;
+}
+li:hover {
+    padding: 40px;
+    background-color : #9f0936;
+    color : #30caa1;
+    border : #123456;
+}
+div {
+    li {
+        list-style: none;
+    }
+    background-color : #202627
+}
+ol > li {
+    color : #e44153;
+}
+li + li {
+    border:dotted 5px;
+}
+p ~ div {
+    color : #5fefbe;
+}
+#funky {
+    color : #e44153;
+}
+#pod{
+    color : #e44153;
+}
+#ocean{
+    display: grid;
+    grid-template-columns : repeat(5, 1fr);
+    grid-template-rows : auto auto;
+    gap: 12px;
+    img{
+        grid-column: span 3;
+        grid-row: span 3;
+        height: 100%;
+        width: 100%;
+    }
+    p{
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+    a{
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+}
