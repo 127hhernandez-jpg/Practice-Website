@@ -1,5 +1,5 @@
 function titleChange(){
-    document.title = document.querySelector("input").value;
+    document.title = document.getElementById("newTitle").value;
 }
 function loading(){
 let ls = localStorage.getItem("counter1");
