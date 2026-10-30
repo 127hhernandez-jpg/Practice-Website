@@ -19,13 +19,13 @@ li:hover {
     gap: 20px;
     margin: 20px;
     padding: 15px;
-    border: 2px black;
+    border: 2px solid black;
 }
 div {
-    li {
-        list-style: none;
-    }
-    background-color : #202627
+    background-color: # 202627;
+}
+div li {
+    list-style: none;
 }
 ol > li {
     color : #e44153;
